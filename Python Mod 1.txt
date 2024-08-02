@@ -1,0 +1,151 @@
+Programming code - Programming code is a set of written computer instructions, guided by rules, using a computer programming language. It might help to think of the computer instructions as a detailed, step-by-step recipe for performing tasks. The instructions tell computers and machines how to perform an action. Programming code may also be referred to as source code or scripts.
+
+Programming languages - Programming languages are similar to human spoken languages in that they both use syntax and semantics. Programming languages are used to write computer programs.  Some common programming languages include Python, Java, C, C++, C#, and R.
+
+Syntax - Syntax is a set of rules for how statements are constructed in both human and computer languages. Programming syntax includes rules for the order of elements in programming instructions, as well as the use of special characters and their placements in statements. This concept is similar to the syntax rules for grammar and punctuation in human language.
+
+Semantics - Semantics refers to the intended meaning or effect of statements, or collections of words, in both human and computer languages. Semantic errors are also referred to as logical errors.
+
+Computer program - A computer program is a step-by-step list of instructions that a computer follows to reach an intended goal. It is important to be clear and precise about the actions a computer program is supposed to perform because computers will do exactly what they are instructed to do. Computer programs can be long, complex, and accomplish a variety of tasks. They are often developed by computer programmers and software engineers, but anyone can learn to create them. Computer programs may involve a structured development cycle. They can be written in a wide variety of programming languages, such as Python, Java, C++,  R, and more. The completed format of a program is often a single executable file.
+
+Script - Scripts are usually shorter and less complex than computer programs. Scripts are often used to automate specific tasks. However, they can be used for complex tasks if needed. Scripts are often written by IT professionals, but anyone can learn to write scripts. Scripts have a shorter, less structured development cycle as compared to the development of complex computer programs and software. Scripts can be written in a variety of programming languages, like Python, Javascript, Ruby, Bash, and more. Some scripting languages are interpreted languages and are only compatible with certain platforms.
+
+Automation - Automation is used to replace a repetitive manual step with one that happens automatically. 
+
+Output - Output is the end result of a task performed by a function or computer program. Output can include a single value, a report, entries into a database, and more. 
+
+Input - Input is information that is provided to a program by the end user. Input can be text, voice, images, biometrics, and more.   
+
+Functions - A function is a reusable block of code that performs a specific task.
+
+Variables - Variables are used to temporarily store changeable values in programming code.
+
+ 
+
+	Python is a general purpose programming language that is commonly used for scripting and automation, as well as to develop a wide variety of applications. Python is compatible with most operating systems, including Windows, Linux, and Mac OS, and is updated every few years. Python can also run on a variety of machines, such as servers, workstations, PCs, mobile devices, IoT, and more.
+
+Python is widely used in the IT field, including IT support, system administration, web development, machine learning, data analytics, and more. Python can be used to calculate statistics, run your e-commerce site, process images, interact with web services, and do a whole host of other tasks. Python instructions resemble the English language, which is what makes it easier to learn and understand when compared to other programming languages.
+
+Python is:
+
+a general purpose scripting language;
+
+a popular language used to code a variety of applications;
+
+a frequently used tool for automation;
+
+a cross-platform compatible language;
+
+a beginner-friendly language.
+
+Python is not: 
+
+a platform-specific / OS-specific scripting language;
+
+a client-side scripting language;
+
+a purely object-oriented programming language.
+
+
+Code comparison with Python
+You will be learning about both Python and Bash scripting in this program. The following code illustrates a syntax difference between the two languages:
+
+ Print to screen in Python                   Print to screen in Bash  
+
+>> print("Hello, how are you?")              >> echo Hello, how are you?
+
+Hello, how are you?                           Hello, how are you?
+
+Platform-specific / OS specific scripting language - Platform-specific scripting languages, like PowerShell (for Windows) and Bash (for Linux), are used by system administrators on those platforms. 
+
+Client-side scripting language - Client-side scripting languages, like JavaScript, are used mostly for web programming. The scripts are transferred from a web server to the end-user’s internet browser, then executed in the browser.
+
+Machine language - Machine language is the lowest-level computer language. It communicates directly with computing machines in binary code (ones and zeros). In binary code, one equals a pulse of electricity and zero equals no electrical pulse. Machine language instructions are made from translating languages like Python into complex patterns of ones and zeros. 
+
+Cross-platform language - Programming language that is compatible with one or more platforms / operating systems (e.g., Windows, Linux, Mac, iOS, Android).
+
+Object-oriented programming language - In object-oriented programming languages, most coding elements are considered to be objects with configurable properties. For example, a form field is an object that can be configured to accept only dates as input in the mm/dd/yy format, and can be configured to read from and write to a specific database. 
+
+Python interpreter - An interpreter is the program that reads and executes Python code by translating Python code into computer instructions.
+
+
+Coding skills
+Skill 1
+Use the print() function to output a string 
+
+
+# Syntax for printing a string of text
+print("I love Python!")
+
+
+# Syntax for printing numeric values
+print(360)
+print(32*45)
+
+
+# Syntax for printing the value of a variable
+value = 8*6
+print(value)
+
+  
+
+Skill 2
+Use arithmetic operators, with a focus on exponents
+
+# Multiplication, division, addition, and subtraction
+print(3*8/2+5-1)
+ 
+# Exponents
+print(4**6) # Syntax means 4 to the power of 6
+print(4**2) # To square a number
+print(4**3) # To cube a number
+print(4**0.5) # To find the square root of a number
+
+# To calculate how many different possible combinations can be
+# formed using a set of "x" characters with each character in "x"
+# having "y" number of possible values, you will need to use an 
+# exponent for the calculation:
+x = 4
+y = 26
+print(y**x)
+
+  
+
+Skill 3
+Use variables with assignment and arithmetic operators
+
+# Assignment of values to the variables:
+years = 10
+weeks_in_a_year = 52
+# This variable is assigned an arithmetic calculation:
+weeks_in_a_decade = years * weeks_in_a_year
+# Prints the calculation stored in the "weeks_in_a_decade" variable:
+print(weeks_in_a_decade)
+
+  
+
+Reminder: Correct syntax is critical
+Using precise syntax is critical when writing code in any programming language, including Python. Even a small typo can cause a syntax error and the automated Python-coded quiz grader will mark your code as incorrect. This reflects real life coding errors in the sense that a single error in spelling, case, punctuation, etc. can cause your code to fail. Coding problems caused by imprecise syntax will always be an issue whether you are learning a programming language or you are using programming skills on the job. So, it is critical to start the habit of being precise in your code now. 
+
+No credit will be given if there are any coding errors on the automated graded quizzes - including minor errors. Fortunately, you have 3 optional retake opportunities on the graded quizzes in this course. Additionally, you have unlimited retakes on practice quizzes and can review the videos and readings as many times as you need to master the concepts in this course.  
+
+Now, before starting the graded quiz, review this list of common syntax errors coders make when writing code.
+
+Common syntax errors:
+Misspellings
+
+Incorrect indentations
+
+Missing or incorrect key characters:
+
+Parenthetical types - ( curved ), [ square ], { curly }
+
+Quote types - "straight-double" or 'straight-single', “curly-double” or ‘curly-single’
+
+Block introduction characters, like colons - :
+
+Data type mismatches
+
+Missing, incorrectly used, or misplaced Python reserved words
+
+Using the wrong case (uppercase/lowercase) - Python is a case-sensitive language 
